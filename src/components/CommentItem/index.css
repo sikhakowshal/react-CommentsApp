@@ -1,0 +1,137 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.comment-item {
+  list-style-type: none;
+}
+
+.comment-text-container {
+  display: flex;
+}
+
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  margin-top: 18px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.initial {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin: 0;
+}
+
+.comment-name-description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.name-time-container {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  color: #334155;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.time {
+  color: #94a3b8;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.description {
+  color: #64748b;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+.comment-like-delete-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like-btn {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.like-img {
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+}
+
+.like-text {
+  color: #7e858e;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.liked {
+  color: #0b69ff;
+}
+
+.delete-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  height: 17px;
+  width: 17px;
+}
